@@ -4,14 +4,19 @@
     <meta charset="utf-8" />
     <title>main page</title>
     <link
-      type="text/css"
       rel="stylesheet"
-      @media
-      screen
-      and
-      (min-width:
-      1920px)
-      href="./test1440.css"
+      href="test1920.css"
+      @media="(max-device-width: 1920px) and (min-device-width: 1441px)"
+    />
+    <link
+      rel="stylesheet"
+      href="test1440.css"
+      @media="(max-device-width: 1440px) and (min-device-width: 769px)"
+    />
+    <link
+      rel="stylesheet"
+      href="test768.css"
+      @media="(max-device-width: 768px)"
     />
   </head>
   <body>
@@ -37,9 +42,7 @@
             </div>
           </div>
         </div>
-        <div id="image">
-          <img src="image1440.png" />
-        </div>
+        <div id="image"></div>
       </div>
     </div>
   </body>
