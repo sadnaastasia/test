@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'Manrope';
+  src: url('./Manrope.ttf');
+}
+body {
+  padding: 36px 40px;
+  font-family: Manrope, sans-serif;
+}
+#table {
+  display: table;
+  background-color: #ebf0fa;
+  border-radius: 10px;
+}
+#tableRow {
+  display: table-row;
+}
+#main {
+  display: table-cell;
+  padding: 72px;
+  vertical-align: top;
+}
+#image {
+  display: table-cell;
+}
+h1 {
+  color: #1f4284;
+  font-size: 27px;
+  font-weight: normal;
+}
+h1 + p {
+  color: #727272;
+  font-size: 17px;
+  font-weight: lighter;
+}
+#button {
+  width: 305px;
+  height: 44px;
+  padding: 12px 12px 12px 24px;
+  display: table;
+  background-color: #244c98;
+  border-radius: 60px;
+}
+#mainpart {
+  color: #ffffff;
+  display: table-cell;
+  background-color: #244c98;
+  border-radius: 60px;
+  font-size: 18px;
+  font-weight: normal;
+}
+#circlecell {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+#circle {
+  display: flex;
+  float: right;
+  vertical-align: middle;
+  text-align: center;
+  width: 44px;
+  height: 44px;
+  background-color: #ffffff;
+  border-radius: 40px;
+}
+#circle p {
+  margin: auto;
+}
