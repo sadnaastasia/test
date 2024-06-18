@@ -71,3 +71,6 @@ h1 + p {
 #circle p {
   margin: auto;
 }
+a {
+  text-decoration: none;
+}
